@@ -9,7 +9,42 @@ body{
 }
 
 .title{
-    
+   padding: 1% 0 0 2%; /* top|right|bottom|left */ 
+}
+
+.navbar{
+    background-color: #fff;
+    border-bottom: .15em solid #33000d;
+}
+
+.navbar-brand:hover{
+    color: #000;
+}
+/*modifies text styling of navbar left */
+.navbar-brand {
+    font-family: 'Amiko', sans-serif;   
+    color: #33000d;
+    font-weight: 400;
+    font-size: 2.5em;  
+}
+
+/*modifies text styling of navbar right */
+.navbar-right a{
+    font-family: 'Amiko', sans-serif;   
+    color: #D9D9D9;
+    font-weight: 400;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.navbar-right:hover{
+    color: #000;
+    background-color: transparent;
+}
+
+/*figure out how to change color of navbar in .navbar-less in the css less*/
+.container .navbar {
+    color: #fff !important;
 }
 
 h1 {
@@ -18,11 +53,11 @@ h1 {
     font-weight: 600;
     font-size: 4em;
     text-align: left;
-    padding-bottom: 0;
     font-height:0;
     padding: 1.5% 0 0 0; 
     margin: 0 0 0 0;
     line-height: 50%;
+    letter-spacing: 10%;
 }
 
 h2 {
