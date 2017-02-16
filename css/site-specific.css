@@ -8,19 +8,32 @@ body{
     font-family: 'Roboto Condensed', helvetica, sans-serif;
 }
 
-.title{
-   padding: 1% 0 0 2%; /* top|right|bottom|left */ 
-}
-
+/*navbar styling*/
 .navbar{
     background-color: #fff;
     border-bottom: .15em solid #33000d;
+    margin-bottom: 0;
 }
 
-.navbar-brand:hover{
-    color: #000;
+.container{
+    padding: 0;
+    margin: auto;
+    width: 98%;
 }
-/*modifies text styling of navbar left */
+
+/*Changing color for the button*/
+button.navbar-toggle{
+    background:transparent;
+    border-color:transparent;
+    margin-bottom: 1%;
+}
+
+button.navbar-toggle span{
+   background:#3c3c3c;
+   opacity: 0.8;
+}
+
+/*modifies styling of navbar left */
 .navbar-brand {
     font-family: 'Amiko', sans-serif;   
     color: #33000d;
@@ -28,23 +41,46 @@ body{
     font-size: 2.5em;  
 }
 
-/*modifies text styling of navbar right */
+a.navbar-brand:hover{
+    font-weight: bold;
+    border-bottom: .05em solid #33000d;
+    color: #000;
+}
+
+/*modifies styling of navbar right */
 .navbar-right a{
     font-family: 'Amiko', sans-serif;   
-    color: #D9D9D9;
+    color: #3c3c3c;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.1em;
     text-transform: uppercase;
 }
 
-.navbar-right:hover{
-    color: #000;
-    background-color: transparent;
+.nav li a{
+    margin-bottom: 0;
+    margin-top:0;
 }
 
-/*figure out how to change color of navbar in .navbar-less in the css less*/
-.container .navbar {
-    color: #fff !important;
+.nav li a:hover{
+    background-color: transparent;
+    font-weight: bold;
+    color: #000;
+    border-bottom: .05em solid #33000d;
+}
+
+/* collapsed menu*/
+.navbar-nav {
+    color: #000;
+    text-align: center;
+}
+
+.navbar-nav:hover{
+    background-color: rgba(252,0,64,0.1);
+}
+
+/*General styling*/
+.title{
+   padding: 1% 0 0 2%; /* top|right|bottom|left */ 
 }
 
 h1 {
@@ -66,3 +102,4 @@ h2 {
     font-weight: 100;
     color: #000;
 }
+
