@@ -18,7 +18,6 @@ body{
 .container{
     padding: 0;
     margin: auto;
-    width: 98%;
 }
 
 /*Changing color for the button*/
@@ -75,28 +74,31 @@ a.navbar-brand:hover{
 }
 
 
-/*General styling*/
+/*General style*/
 
-/*individual pages styling*/
+/*individual pages style*/
 h3 {
     font-family: 'Roboto', sans-serif; 
     font-weight: 500;
-    font-size: 2em;
+    font-size: 2.3em;
     text-align: left;
     padding: 1.5% 0 0 0; 
-    color: #484848;
+    color: #252525;
 }
 
 p {
     font-family: 'Roboto', sans-serif; 
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: left;
     padding: 1.5% 0 0 0; 
     color: #888;
 }
 
 /* table/column style*/
+.row p{
+    padding: 1% 0 1% 0;
+}
 
 p.quote{
     font-family: 'Roboto', sans-serif; 
@@ -111,10 +113,6 @@ p.quote{
 .col-md-12 img{
     width: 100%;
     height: auto;
-}
-
-.container .col-md-12 {
-    padding: 0 0 0 0;
 }
 
 /*styles text that spans page to full bleed*/
