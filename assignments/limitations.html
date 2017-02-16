@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DATA SKETCHES: An Analysis</title>
+
+    <!-- Google fonts code -->
+    <link href="https://fonts.googleapis.com/css?family=Amiko|Roboto" rel="stylesheet">
+
+    <!-- bootstrap set up--> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- ensures website has a 1:1 ratio with the viewport (screen size) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <!-- Stylesheet link -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="../css/site-specific.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <nav class="navbar navbar-static-top"> 
+      <!--In the first line, I’m defining the entire bar as a navbar, and electing to use navbar-static-top, as opposed to a fixed (sticky) header.-->
+      <!--A container sets a max-width on the content within your full-width navbar.-->
+      <div class="container">
+        <!--The navbar-header class contains the “brand” information, where you can put your logo or company name-->
+        <div class="navbar-header">
+          <!--The button is hidden on desktop, and becomes a dropdown hamburger menu on mobile (each <span class="icon-bar"> is a line in the hamburger)-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="../index.html"> <strong> data sketches:</strong> <font size=5 em >  an analysis </font></a>
+        </div>
+      
+        <!-- Collect the nav links, forms, and other content for toggling -->        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="datasources.html">Data</a></li>
+            <li><a href="pov.html">Perspective</a></li> 
+            <li><a href="positives.html">Positives</a></li>
+            <li><a href="limitations.html">Limitations</a></li>
+          </ul>
+        </div>
+    </nav>
+
+
+    <!-- .rows and .columns -->
+    <div class="container">
+      <div class="row">
+
+        <!-- first title -->
+        <div class="col-md-6">
+          <h3>Limitations</h3>
+        </div>
+
+        <!-- intro -->
+         <div class="col-md-8">
+          <p style="font-size: 18px">Within the parameters of ‘Movies’, Nadieh and Shirley took different approaches to visualizing their choice of data for the month of July. Nadieh designed a beautiful chord chart highlighting the number of words spoken by characters in all 3 extended editions of the film, Lord of the Rings. Shirley, on the other hand, created a visual table which shows the genre, parental-guidance rating, movie-rating, and amount of IMDb votes for the movie-ratings in a scalable abstract floral form. But how successful were they in achieving their goals, and what are the limitations of their visualizations? Since Nadieh and Shirley each created an individual project for the month of July, I will talk about each one separately and conclude with a general overview of the limitationsa and sucess I found in both projects.</p>
+         </div>
+         <div class="col-md-4">
+         <a href="../img/LotRsketchtimeline.jpg"><img src="../img/LotRsketchtimeline.jpg" alt="LotR Sketch Timeline"></a>
+         </div>
+      </div>
+
+        <!-- nadieh -->
+        <div class="row">
+          <div class="col-md-4">
+          </div>
+          <div class="col-md-6">
+            <h3><b>"Who's speaking in Middle Earth"</b></h3>              
+          </div>
+
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-md-4">
+                <a href="../img/LotR_Gandalf.jpg"><img src="../img/LotR_Gandalf.jpg" alt="Spoken word by Gandalf"></a>
+              </div>            
+
+              <div class="col-sm-7">
+              <p>Nadieh’s vision to visualize the number of words spoken in Lord of the Rings is limited by the size of her data set as well as the inherent bias towards the importance of words on a script. In her data set, she limits the number of characters to 9 protagonists (of dozens) and does not include enemies of the fellowship such as Gollum, Ugluk, or Sauron. This creates a slew of missing data which could be misleading in trying to understand the movie and the dynamics between the characters. In the same way, although the chart shows the number of words spoken, it does not show the number scenes where the characters do not speak. By emphasizing the number of words spoken and the locations in which they were spoken at, the chart places an unnecessary stress on words when silence could be of equal importance in the movie. For example, there are very few words at the end of the film when Frodo (spoiler alert!) was finally relieved of the ring at Mount Doom, yet plays a vital role to the film. Nadieh hints at this toward the end of her post when she comments on the amount of lines Sam has in the film, while Legolas was shockingly the opposite. A comparison of number of words spoken during the trilogy and the duration of time they appear on film, may help foster a stronger comprehension of the dynamics between the characters in the film, as well as their hierarchical roles.</p>
+              <p>In a similar vein, another limitation is the generality of the visualization. Nadieh mentions this problem in her Github repository for the data set when dealing with specific locations that did not match up to the general locations. The Grey Havens, for instance, was not in the Shire, Rivendell, or Emyn Muil. As a result, Nadieh had to make a decision to place that location within a certain category, thereby skewing the data. Perhaps a more detailed account of the specific locations of each word spoken by a character would fix this problem, but change the charge entirely</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shirley -->
+        <div class="row">
+
+          <div class="col-md-6">
+            <h3 style="text-indent: 40px"><b>"Film Flowers"</b></h3> 
+          </div>
+
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-sm-7">
+              <p>I would argue that Shirley was slightly less successful in achieving her goals. Although the main purpose of datasketch.es is to simply create a visualization project that relates to the topic of choice each month, it did not feel like her initial intentions were reflected in her final product. Shirley starts with a discussion on her inability to recognize pop-cultural references and was excited to visualize either how many summer-blockbuster movies or the top 20 best rated movies she watched in her lifetime. The resulting visualization however, primarily emphasizes the top 5 movie ids from her birth-year, 1990, to the present, 2016, and now the movies she watched. Although charming in design, the final product feels as if Shirley could not find a way to represent the number of top movies she watched in a clear and personal narrative. As a result, the visualization is slightly ambiguous in message and homogenous in design. Nothing jumps out at the reader, and it is terribly difficult to draw comparisons between the film flowers</p>
+              <p>Overall, there needs to be a clearer narrative for Shirley’s visual design. If the chart is meant to the visualize the number of times she has watched a blockbuster film, the small green petals behind the flower should take president. The same is true for the data she is representing about each movie. The smallness of the flower, such as the move Batman &amp; Roman, does not immediately jump out as much as a rotten green-tomato would and the number of votes which determine the ratings do not show the magnitude of the votes as a denser usage of lines or patterns would. Perhaps the use of an interactive component, or an arrangement of the movies by movie-rating, vote number, or number of times watched by Shirley would better tell the narrative.</p>
+              </div>
+
+              <div class="col-md-4">
+                <a href="../img/filmflowerimg.jpg"><img src="../img/filmflowerimg.jpg" alt="Film Flower Visualization"></a>
+              </div>   
+            </div>
+          </div>
+        </div>
+
+        
+        <!-- Concluding Remarks 
+      <div class="row"> -->
+
+        <!-- first title 
+        <div class="col-md-6">
+          <h3>Concluding Remarks</h3>
+        </div> -->
+
+        <!-- conclusion 
+         <div class="col-md-8">
+          <p style="font-size: 22px">“Film Flowers” by Shirley Wu is ultimately more complex and informationally dense when compared to “Who’s Speaking in Middle Earth” by Nadieh Bremer. Both are limited by the data sets they chose and the algorithms they used. Both methods are applicable to other movie data sets. Nadieh’s visualization, however, was ultimately more successful because end product was a clear result of her initial intention to create something personal yet useful. Shirley’s visualization, though rich in information and data, did not convey her data and goals as clearly, and chose forms that are difficult to correlate with the concept of movies</p>
+         </div>
+         <div class="col-md-4">
+         <img src="../img/DelauneyTriangulation.jpg" alt="Sketch by Shirley">
+         </div> -->
+      </div>
+
+
+
+      
+    </div>
+
+    <!--jQuery via Google CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </body>
+</html>
