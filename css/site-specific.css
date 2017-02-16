@@ -77,6 +77,81 @@ a.navbar-brand:hover{
 
 /*General styling*/
 
+/*individual pages styling*/
+h3 {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+    font-size: 2em;
+    text-align: left;
+    padding: 1.5% 0 0 0; 
+    color: #484848;
+}
+
+p {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 1em;
+    text-align: left;
+    padding: 1.5% 0 0 0; 
+    color: #888;
+}
+
+/* table/column style*/
+
+p.quote{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 3em;
+    text-align: center;
+    padding: 1.5% 0 0 0; 
+    color: #484848;
+}
+
+/*stretches images that span page to full bleed*/
+.col-md-12 img{
+    width: 100%;
+    height: auto;
+}
+
+.container .col-md-12 {
+    padding: 0 0 0 0;
+}
+
+/*styles text that spans page to full bleed*/
+.col-md-12 p{
+    width: 66%;
+    padding-left: 3%;
+    margin: auto;
+    text-align: left;
+    height: auto;
+}
+
+/*sizes images*/
+.col-md-2 img{
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 0; 
+}
+.col-md-4 img{
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 0; 
+}
+.col-md-6 img{
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 0; 
+}
+.col-md-8 img{
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 0; 
+}
+.col-md-10 img{
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 0; 
+}
 /*landing page style*/
 /*adds background to text*/
 .backgroundcliptext .index-link-styling {
