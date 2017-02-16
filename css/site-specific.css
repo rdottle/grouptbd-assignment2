@@ -96,6 +96,10 @@ p {
 }
 
 /* table/column style*/
+.row .container {
+    width: 100%;
+}
+
 .row p{
     padding: 1% 0 1% 0;
 }
