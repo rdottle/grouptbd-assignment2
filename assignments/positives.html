@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DATA SKETCHES: An Analysis</title>
+
+    <!-- Google fonts code -->
+    <link href="https://fonts.googleapis.com/css?family=Amiko|Roboto" rel="stylesheet">
+
+    <!-- bootstrap set up--> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- ensures website has a 1:1 ratio with the viewport (screen size) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <!-- Stylesheet link -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="../css/site-specific.css">
+    <!-- favicon - img for browser -->
+    <link rel="shortcut icon" type="image/png" href="../img/logo.png"/>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-static-top"> 
+      <!--In the first line, I’m defining the entire bar as a navbar, and electing to use navbar-static-top, as opposed to a fixed (sticky) header.-->
+      <!--A container sets a max-width on the content within your full-width navbar.-->
+      <div class="container">
+        <!--The navbar-header class contains the “brand” information, where you can put your logo or company name-->
+        <div class="navbar-header">
+          <!--The button is hidden on desktop, and becomes a dropdown hamburger menu on mobile (each <span class="icon-bar"> is a line in the hamburger)-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="../index.html"> <strong> data sketches:</strong> <font size=5 em >  an analysis </font></a>
+        </div>
+      
+        <!-- Collect the nav links, forms, and other content for toggling -->        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../assignments/datasources.html">Data</a></li>
+            <li><a href="../assignments/pov.html">Perspective</a></li> 
+            <li><a href="../assignments/positives.html">Positives</a></li>
+            <li><a href="../assignments/limitations.html">Limitations</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <!--grid .. 4 of 12 = 1/3 page columns-->
+    <!-- .rows and .columns -->
+    <div class="container">
+      <div class="row">
+
+        <!-- half of page-->
+        <div class="col-md-6">
+          <h3>Data Sources</h3>
+        </div>
+
+        <!-- half of page-->
+         <div class="col-md-8">
+          <p>What’s great about this project is that you can see how two people took the same theme and created totally different visualizations. Formatted like a diary entry, complete with sketches and links to the datasets, over the course of the project to give a sense of the process. They show us sketches of different avenues that they explored. </p>
+        </div>
+
+        <div class="col-md-12">
+          <img src="../img/DS_intro.jpg" alt='hello'>
+        </div>
+
+        <div class="col-md-8">
+          <p><b></b>Who’s speaking in middle earth?: <b></b> 
+          <img src="../img/lotfsketches.jpg">
+          <b></b> Film flowers: <b></b> 
+          <img src="../img/flowersketch.jpg"><b></b> 
+          <p>This narrative diary format gives them the opportunity to give the rationale for the decisions they make.</p> 
+
+
+
+           The list of characters in the film included in this spreadsheet is more than the amount she included in her data sketch. She whittled down the list of characters and focused on the main group of characters who are the driving force for the plot of the three films. The last variable in her data sketch is the location that these characters were in the film where they spoke the lines. This is not included in the .tsv file. </p>
+        </div>
+<!-- full bleed text -->
+        <div class="col-md-12">
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        </div>
+        <!-- full bleed image-->
+        <div class="col-md-12">
+          <img src="../img/background_text.png" alt='hello'>  
+        </div>
+
+        <!-- half of page, gray background-->
+        <div class="col-md-6">
+          <img src="../img/grey.png" alt='hello'>
+        </div>
+        <!-- half of page, includes BIGGER text for callouts-->
+        <div class="col-md-6">
+          <p class="quote">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        </div>
+
+        <!-- two-thirds of page-->
+        <div class="col-md-8">
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        </div>
+        <!-- a-third of page-->
+        <div class="col-md-4">
+          <img src="../img/jcrew-studio.jpg" alt='hello'>          
+        </div>
+        
+      </div>
+    </div>
+
+    <!--jQuery via Google CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </body>
+</html>
