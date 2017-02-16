@@ -18,6 +18,33 @@ body{
 .container{
     padding: 0;
     margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container .navbar-header {
+    padding: 0.25% 0 0 1%;
+    margin: auto;
+}
+
+.container .navbar-right {
+    padding: 0.25% 1% 0 0;
+    margin: auto;
+}
+
+.row p{
+   margin-left: 7%;
+   margin-right: auto;
+}
+
+.row img{
+    margin-right: 0;
+    margin-right: auto;
+}
+
+.row h3{
+    margin-left: 2%;
+    margin-right: auto;
 }
 
 /*Changing color for the button*/
@@ -89,20 +116,13 @@ h3 {
 p {
     font-family: 'Roboto', sans-serif; 
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: left;
     padding: 1.5% 0 0 0; 
     color: #888;
 }
 
 /* table/column style*/
-.row .container {
-    width: 100%;
-}
-
-.row p{
-    padding: 1% 0 1% 0;
-}
 
 p.quote{
     font-family: 'Roboto', sans-serif; 
@@ -113,11 +133,6 @@ p.quote{
     color: #484848;
 }
 
-/*stretches images that span page to full bleed*/
-.col-md-12 img{
-    width: 100%;
-    height: auto;
-}
 
 /*styles text that spans page to full bleed*/
 .col-md-12 p{
@@ -154,6 +169,12 @@ p.quote{
     height: auto;
     padding: 0 0 0 0; 
 }
+.col-md-12 img{
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 0;
+}
+
 /*landing page style*/
 /*adds background to text*/
 .backgroundcliptext .index-link-styling {
