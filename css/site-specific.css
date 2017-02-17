@@ -38,8 +38,13 @@ body{
 }
 
 .row h4{
-   margin-left: 7%;
+   margin-left: 11%;
    margin-right: auto;
+}
+
+.row #indented{
+   margin-left: 11%;
+   margin-right: auto; 
 }
 
 .row img{
@@ -151,15 +156,9 @@ p.quote{
     color: #484848;
 }
 
-p#largerText{
-    font-size: 1.15em;
-}
-
 /*styles text that spans page to full bleed*/
 .col-md-12 p{
-    padding-left: 2%;
     padding-right: 25%;
-    margin: auto;
     text-align: left;
     height: auto;
 }
@@ -172,6 +171,11 @@ p#largerText{
 }
 .col-md-4 img{
     width: 100%;
+    height: auto;
+    padding: 0 0 0 0; 
+}
+.col-md-5 img{
+    width: 82%;
     height: auto;
     padding: 0 0 0 0; 
 }
