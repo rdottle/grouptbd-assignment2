@@ -37,6 +37,11 @@ body{
    margin-right: auto;
 }
 
+.row h4{
+   margin-left: 7%;
+   margin-right: auto;
+}
+
 .row img{
     margin-right: 0;
     margin-right: auto;
@@ -118,11 +123,24 @@ p {
     font-weight: 400;
     font-size: 1em;
     text-align: left;
-    padding: 1.5% 0 0 0; 
+    padding: 0 0 0 0; 
     color: #4d4d4d;
 }
 
-/* table/column style*/
+h4 {
+    font-family: 'Amiko', sans-serif; 
+    font-weight: 500;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 1.5% 0 0 0; 
+    color: #252525;
+    text-transform: uppercase;
+}
+
+h4 img{
+    width: 100%;
+    height: auto;
+}
 
 p.quote{
     font-family: 'Amiko', sans-serif; 
@@ -133,11 +151,14 @@ p.quote{
     color: #484848;
 }
 
+p#largerText{
+    font-size: 1.15em;
+}
 
 /*styles text that spans page to full bleed*/
 .col-md-12 p{
-    width: 66%;
-    padding-left: 3%;
+    padding-left: 2%;
+    padding-right: 25%;
     margin: auto;
     text-align: left;
     height: auto;
