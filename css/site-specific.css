@@ -196,6 +196,13 @@ p#largerText{
     padding: 0 0 0 0;
 }
 
+#homeimage img{
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
 /*landing page style*/
 /*adds background to text*/
 .backgroundcliptext .index-link-styling {
