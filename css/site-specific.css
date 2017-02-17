@@ -164,6 +164,7 @@ p.quote{
     height: auto;
     padding: 0 0 0 0; 
 }
+
 .col-md-10 img{
     width: 100%;
     height: auto;
@@ -220,7 +221,7 @@ p.index-link-styling{
     bottom: 0;
 }
 
-p.index-link-styling-1{
+col-md-8p.index-link-styling-1{
     font-family: 'Montserrat', sans-serif; 
     font-weight: 400;
     font-size: 4em;
